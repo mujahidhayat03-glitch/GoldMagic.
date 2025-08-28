@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Magic - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Gold Magic Dashboard</h1>
+  </header>
+  <main>
+    <section class="balance-section">
+      <h2>Your Balance: <span id="balance">1000</span> PKR</h2>
+      <p>Profit: Every 2 hours +2%</p>
+    </section>
+
+    <section class="deposit-section">
+      <h3>Deposit</h3>
+      <p>Easypaisa: <b>03470780171</b></p>
+      <p>JazzCash: <b>03180640250</b></p>
+      <input type="number" id="depositAmount" placeholder="Enter amount">
+      <button onclick="deposit()">Deposit</button>
+    </section>
+
+    <section class="withdraw-section">
+      <h3>Withdraw (Min 1000 PKR)</h3>
+      <input type="number" id="withdrawAmount" placeholder="Enter amount">
+      <button onclick="withdraw()">Withdraw</button>
+    </section>
+  </main>
+</body>
+</html>

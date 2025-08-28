@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background: gold;
+  padding: 15px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login-container {
+  margin-top: 100px;
+}
+.login-container h1 {
+  color: goldenrod;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+button {
+  padding: 10px 20px;
+  background: goldenrod;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: darkgoldenrod;
+}
+section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
