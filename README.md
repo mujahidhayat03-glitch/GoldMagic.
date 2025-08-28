@@ -1,0 +1,2 @@
+# GoldMagic.
+GoldMagic 
